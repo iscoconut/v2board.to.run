@@ -1,0 +1,21 @@
+{
+  "name": "v2board-docs",
+  "version": "1.0.0",
+  "description": "V2Board 技术文档 - 运行问题处理方案",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "keywords": [
+    "v2board",
+    "documentation",
+    "troubleshooting"
+  ],
+  "author": "",
+  "license": "MIT"
+}
