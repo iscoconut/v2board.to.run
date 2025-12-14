@@ -14,6 +14,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/getting-started' },
       { text: '故障排除', link: '/troubleshooting/' },
+      { text: '管理员指南', link: '/admin/' },
       { text: 'FAQ', link: '/faq/' }
     ],
 
@@ -51,6 +52,15 @@ export default defineConfig({
             { text: '支付相关', link: '/faq/payment' },
             { text: '节点相关', link: '/faq/nodes' },
             { text: '用户管理', link: '/faq/users' }
+          ]
+        }
+      ],
+      '/admin/': [
+        {
+          text: '管理员指南',
+          items: [
+            { text: '概述', link: '/admin/' },
+            { text: '垃圾账户清理', link: '/admin/cleanup-spam-users' }
           ]
         }
       ]
