@@ -288,5 +288,5 @@ A: 取决于数据量和服务器性能，百万级数据约需 10-30 分钟。�
 ## 相关资源
 
 - [数据库备份与恢复](/guide/configuration#备份配置)
-- [用户管理最佳实践](/admin/user-management)
 - [安全配置建议](/guide/configuration#安全建议)
+- [数据库问题排除](/troubleshooting/database)
